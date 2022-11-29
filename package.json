@@ -1,0 +1,22 @@
+{
+  "name": "new-pro",
+  "version": "1.0.0",
+  "description": "mini blog",
+  "main": "server.js",
+  "author": "ayo",
+  "license": "MIT",
+  "scripts": {
+    "tests": "echo 'Error: no test specified' && eit 1",
+    "start": "node server.js",
+    "dev": "nodemon api.js"
+  },
+  "dependencies": {
+    "consolidate": "^0.16.0",
+    "express": "^4.18.2",
+    "mongoose": "^6.7.2",
+    "swig": "^1.4.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
