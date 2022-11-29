@@ -38,4 +38,4 @@ api.delete("/blog/:blogId", deletePost);
 
 api.all("*", notFoundController);
 
-api.listen(port, AppStarter);
+api.listen(port, AppStarter(port));
